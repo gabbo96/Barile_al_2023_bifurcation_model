@@ -1,0 +1,37 @@
+Initial inlet step = -0.0320        
+
+INPUT PARAMETERS:        
+Solid transport formula = MPM
+        
+M = 25
+dx = 25 m
+CFL = 0.9
+t_end = 3000 Tf
+L = 600
+beta_0 = 20
+theta_0 = 0.07        
+d_s0 = 0.02
+d50 = 0.02 m
+alpha_eq = 9.00
+r = 0.5
+        
+RESONANT ASPECT RATIO AND EQUILIBRIUM alpha ACCORDING TO REDOLFI ET AL., 2019        
+beta_R = 10.84
+alpha_MR = 4.10
+(beta_a-beta_R)/beta_R = 0.84
+        
+MAIN CHANNEL IC:        
+W_a = 40.0 m
+S_a = 2.3e-03
+D_0 = 1.0 m
+Fr_a = 0.58
+L = 600.0 m
+L/W_a = 15.0        
+Q_a = 72.26 m^3 s^-1
+Qs_a = 1.27e-02 m^3 s^-1
+Exner time: Tf = 14.00 h        
+
+BRT EQUILIBRIUM SOLUTION:        
+Delta_Q = 0.455
+Delta_eta = -0.640
+S/S_a = 0.895

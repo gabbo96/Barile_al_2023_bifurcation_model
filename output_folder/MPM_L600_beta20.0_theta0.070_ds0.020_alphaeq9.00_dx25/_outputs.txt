@@ -1,0 +1,25 @@
+-----------------------------------------    
+EQUILIBRIUM STATE AND COMPARISON WITH BRT    
+-----------------------------------------    
+Final Delta_Q = 0.8922    
+Delta_Q at equilibrium according to BRT = 0.4553    
+Delta_Q relative difference = 95.9%    
+
+Final Delta_eta = -0.1267    
+Delta_eta at equilibrium according to BRT = -0.6405    
+Delta_eta relative difference = -80.2%    
+Average node cell elevation = -1.1006    
+
+Average bed slopes: S_b/S_0 = 0.689, S_c/S_0 = 1.027    
+Average slope according to BRT: S/S_0 = 0.895    
+
+Average water depths: D_b/D_0 = 1.732, D_c/D_0 = 0.347    
+Water depths at inlets/normal depths: D_b_inlet/D_b_uf = 1.000, D_c_inlet/D_c_uf = 1.000
+
+-------------    
+OTHER OUTPUTS    
+-------------    
+Full avulsion occurred (0:no, 1:yes): 0
+Longitudinal step: (D_b-D_c)/D_0 = 1.508
+Average water depth at the inlets of the branches:D_avg/D_0 = 1.669    
+Bed slope of the node cells: S_node/S_0 = 1.222
