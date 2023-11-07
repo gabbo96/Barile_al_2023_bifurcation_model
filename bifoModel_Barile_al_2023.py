@@ -39,8 +39,8 @@ tol = 1e-10  # Iterations tolerance
 # Hydraulic and geometry parameters
 # sediment transport formula. Available options: 'P78' (Parker78), 'MPM', 'P90' (Parker90), 'EH' (Engelund&Hansen)
 TF = 'MPM'
-L = 1000
-beta_0 = 20
+L = 600
+beta_0 = 14
 theta_0 = 0.07
 d_s0 = 0.02  # relative roughness ds_a = d50/D_0
 C_0 = 12
@@ -637,6 +637,7 @@ H_c = eta_c[n-1, :]+D_c[n-1, :]
 H_n = D_node[n-1, :]+0.5*(eta_ab+eta_ac)
 
 # Plot bed elevation profiles
+plt.figure()
 plt.plot(x_a, eta_a[n-1, :], color=bed_color, label=r'Bed elevation $\eta$')
 plt.plot(x_n, eta_ab,   color=bed_color, linestyle='dashed')
 plt.plot(x_n, eta_ac,   color=bed_color, linestyle='dotted')

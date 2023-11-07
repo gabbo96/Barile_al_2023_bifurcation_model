@@ -35,3 +35,4 @@ BRT EQUILIBRIUM SOLUTION:
 Delta_Q = 0.351
 Delta_eta = -0.480
 S/S_a = 0.951
+
