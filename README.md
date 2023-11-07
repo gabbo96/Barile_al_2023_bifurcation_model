@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/715318832.svg)](https://zenodo.org/doi/10.5281/zenodo.10079751)
+
 # 1-D numerical model of a river bifurcation
 This repository contains the code of the numerical model used for the simulations discussed in Barile et al. (2023), submitted to Earth Surface Dynamics and currently under review (preprint available at https://egusphere.copernicus.org/preprints/2023/egusphere-2023-1551/).
 
